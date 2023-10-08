@@ -68,7 +68,7 @@ export const ctrlUpdateAuthor = async (req, res) => {
   }
 };
 
-//Controlador para eliminar un autor
+//Controlador para eliminar un author
 export const ctrlDeleteAuthor = async (req, res) => {
   const { id } = req.params;
 
